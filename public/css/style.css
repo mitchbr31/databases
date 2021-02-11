@@ -1,0 +1,32 @@
+#nav_list li{
+  list-style: none;
+  text-align: center;
+  background-color: orange;
+  display: inline-block;
+  list-style-position: left;
+  padding: 16px;
+}
+
+body {
+  background-color: #3B3433;
+}
+
+h1, h2, h3, label {
+  color: white;
+}
+
+a:link, a:visited, a:active {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+table, th, td {
+  background-color: white;
+  border: 1px solid black;
+}

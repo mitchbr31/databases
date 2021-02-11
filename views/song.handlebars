@@ -1,0 +1,79 @@
+<h1>Search for Songs</h1>
+
+<div id="nav_bar">
+  <ul id="nav_list">
+    <li><a href="/" class="btn">Home</a></li>
+    <li><a href="/genre" class="btn">Check out Genres</a></li>
+    <li><a href="/singer" class="btn">Check out Artists</a></li>
+    <li><a href="/album" class="btn">Check out Albums</a></li>
+    <li><a href="/song" class="btn">Check out Songs</a></li>
+  </ul>
+</div>
+
+<form>
+  <label for="searchSong">Search for a song:</label>
+  <input type="text" id="searchSongs">
+  <button type="button" id="submitSearch">Search</button>
+</form>
+      
+<br/>
+      
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Artist</th>
+    <th>Album</th>
+    <th>Genre</th>
+    <th>Update</th>
+    <th>Delete</th>
+  </tr>
+  <tr>
+    <td>American Idiot</td>
+    <td>Green Day</td>
+    <td>American Idiot</td>
+    <td>Rock</td>
+    <td><button type="button" id="updateSong">Update</button></td>
+    <td><button type="button" id="deleteSong">Delete</button></td>
+  </tr>
+  <tr>
+    <td>Gorgeous</td>
+    <td>Kanye West</td>
+    <td>My Beautiful Dark Twisted Fantasy</td>
+    <td>Rap</td>
+    <td><button type="button" id="updateSong">Update</button></td>
+    <td><button type="button" id="deleteSong">Delete</button></td>
+  </tr>
+  <tr>
+    <td>Toxic</td>
+    <td>Britney Spears</td>
+    <td>In The Zone</td>
+    <td>Pop</td>
+    <td><button type="button" id="updateSong">Update</button></td>
+    <td><button type="button" id="deleteSong">Delete</button></td>
+  </tr>
+</table>
+
+<form>
+  <h2>Add a New Song:</h2>
+  <label for="songNameS">Song: </label>
+  <input type="text" id="songNameS"><br/>
+  <label for="singerNameS">Artist: </label>
+  <select id=singerNameS>
+    <option value="Britney Spears">Britney Spears</option>
+    <option value="Kanye West">Kanye West</option>
+    <option value="Green Day">Green Day</option>
+  </select><br/>
+  <label for="albumNameS">Album: </label>
+  <select id=albumNameS>
+    <option value="In The Zone">In The Zone</option>
+    <option value="My Beautiful Dark Twisted Fantasy">My Beautiful Dark Twisted Fantasy</option>
+    <option value="American Idiot">American Idiot</option>
+  </select><br/>
+  <label for="genreNameS">Genre: </label>
+  <select id=genreNameS>
+    <option value="Pop">Pop</option>
+    <option value="Rap">Rap</option>
+    <option value="Rock">Rock</option>
+  </select><br/>
+  <button type="button" id="submitSong">Submit</button>
+</form>
